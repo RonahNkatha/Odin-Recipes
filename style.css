@@ -1,0 +1,19 @@
+* {
+  background-color: aquamarine;
+}
+
+p {
+  font-size: smaller;
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul li {
+  font-style: italic;
+  color: brown;
+}
+
+img {
+  height: auto;
+  width: 500px;
+}
