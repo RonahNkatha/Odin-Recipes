@@ -1,9 +1,12 @@
 * {
-  background-color: aquamarine;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(221, 204, 204);
 }
 
 p {
-  font-size: smaller;
+ font-size: 2inc;
   font-weight: 800;
   font-family: "Times New Roman", Times, serif;
 }
@@ -11,9 +14,65 @@ p {
 ul li {
   font-style: italic;
   color: brown;
+  font-size: 2ch;
 }
 
 img {
+  padding: 50px;
+  margin: 50px;
   height: auto;
   width: 500px;
+}
+
+.method {
+  padding: 20px;
+  margin: 20px;
+  border-left: 10px;
+  border-color: brown;
+}
+
+.ingredients{
+  padding: 20px;
+  margin: 20px;
+  border-right: 20px;
+  color: red;
+}
+
+.steps-heading{
+  padding: 20px;
+  margin: 20px;
+  border: 20px;
+  color: red;
+}
+
+.steps li{
+  padding: 5px;
+  margin: 10px;
+  color: brown;
+  
+}
+
+h1{
+  font-size: 5ch;
+  padding: 20px;
+  margin: 15px;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+h2{
+  padding: 20px;
+  margin: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+}
+
+p{
+  padding: 20px;
+  margin: 15px;
+  font-size: 3ch;
+  color: brown;
 }
